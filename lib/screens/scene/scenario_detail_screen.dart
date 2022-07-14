@@ -91,14 +91,6 @@ class _ScenarioDetailScreenState extends State<ScenarioDetailScreen> {
     return Column(
       crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Text(
-          title1,
-          style: TextStyle(
-            fontWeight: FontWeight.w500,
-            color: Colors.black,
-            fontSize: 18,
-          ),
-        ),
         SizedBox(
           height: 10,
         ),
@@ -127,7 +119,7 @@ class _ScenarioDetailScreenState extends State<ScenarioDetailScreen> {
               mainAxisAlignment: MainAxisAlignment.spaceBetween,
               children: [
                 Text(
-                  'Motion Sensor',
+                  title1,
                   style: TextStyle(
                     fontWeight: FontWeight.w500,
                     color: Colors.grey,

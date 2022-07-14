@@ -479,7 +479,7 @@ class _HomeState extends State<Home> {
                 );
                 ScaffoldMessenger.of(context).showSnackBar(snackBar);
                 setState(() {});
-                Navigator.pushReplacement(
+                Navigator.push(
                   context,
                   MaterialPageRoute(builder: (context) => Homepage()),
                 );
